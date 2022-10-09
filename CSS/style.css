@@ -1,0 +1,117 @@
+nav {
+    background-color:#b376e4;
+    font-family:"Courier New";
+    display: flex;
+    font-size: 18px;
+    width:100%;
+    justify-content:space-evenly;
+    position:fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    opacity: 50%;
+    padding: 15px;
+    width:100%;
+  }
+
+a{
+    color: black;
+  }
+  
+aside{
+    float:right;
+    display:flex;
+    width: 50%;
+    padding: 30px;
+    margin: 60px;
+  }
+  
+
+p {
+    font-family:"Courier New";
+    font-size: 30px;
+    color: #824324;
+    background-color: rgba(129, 80, 130, 0.223);
+    text-align: center;
+    margin-right: 18px;
+    padding: 30px;
+  }
+  
+  
+h1 {
+    margin: 60px;
+    padding: 10px;
+    font-size: 70px;
+    font-family: "Courier New";
+    border: #977bab solid 10px;
+    color: #a1481c;
+    text-align: center;
+  }
+  
+  
+h2 {
+    font-size: 50px;
+    font-family: "Courier New";
+    color: #824324;
+    border: #dbb2c8 solid 4px;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+  }
+
+#experience{
+  border: #67361e solid 10px;
+  margin: 20px;
+  padding: 30px;
+}
+
+#frogsinfoenpic{
+  display: flex;
+  border: #cd4d0c solid 10px;
+  margin: 20px;
+  padding: 20px;
+}
+  
+body {
+    background-color: #000000cc;
+    flex: 1 0 40%;
+    max-width: 3000px;
+  }
+  
+img {
+    width: 30%;
+    margin: auto;
+    display: flex;
+  }
+  
+footer{
+    height: 8vh;
+    display: flex;
+    float: middle;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    background-color: #dbb2c8;
+  }
+
+#footer{
+  height: 8vh;
+    display: flex;
+    float: middle;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    background-color: #dbb2c8;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a{
+    float: none;
+    width: 100%;
+  }
+}
