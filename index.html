@@ -1,51 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="/CSS/style.css"/>
+  <!--this is where the CSS is linked-->
+  <link rel="stylesheet" type="text/css" href="/CSS/style.css"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
+<html>
 
-<header>
-    <nav>
-    <a href="#Frogs are great!">Frogs are great!</a>
-    <a href="#Experience">Experience</a>
-    </nav>
-    <h1>Welcome, my name is Juju!</h1>
-    <p>At the moment I'm studying CMGT in Rotterdam. Before that i studied graphic design for 3 years and got my degree.</p>
+
+<!--Here, the webpage starts-->
+  <header>
+      <nav>
+        <a href="#aboutMe">About me</a>
+        <a href="#Experience">Experience</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+        <h1>Welcome, my name is Juju!</h1>
+        <p>At the moment I'm studying CMGT in Rotterdam. 
+          Before that i studied graphic design for 3 years and got my degree.</p>
   </header>
-  
-  <!-- <img src=""> -->
-  
-<main>
-    <section><h2 id="Frogs are great!">Frogs are great!</h2></section>
-    <section id="frogsinfoenpic">
-      <aside>
+
+
+<!--Here come the main 3 portfolio images, in CSS there's code for both the parent and children that are in this div-->
+
+  <!--The 'parent'-->
+  <div class="imagegallery">
+
+      <!--The 'child'-->
+      <figure>
+          <img src="https://media.discordapp.net/attachments/646973125275156481/1038823652482883697/2.png?width=580&height=580" loading="lazy">
+          <figcaption>Photo 1: Cosplay Art</figcaption>
+        </figure>
+      <figure>
+          <img src="https://media.discordapp.net/attachments/646973125275156481/1038823652105388042/3.png?width=580&height=580" loading="lazy">
+          <figcaption>Photo 2: Realism inspired</figcaption>
+        </figure>
+      <figure>
+          <img src="https://media.discordapp.net/attachments/646973125275156481/1038823652856172695/1.png?width=580&height=580" loading="lazy">
+          <figcaption>Photo 3: Halloween Art Trade</figcaption>
+        </figure>
+
+  </div>
+
+
+
+  <main> <body>
+  <section id="frogsinfoenpic"></section>
+      <h2 id="aboutMe">About me</h2>
+        <div class="column">
         <strong>
-          <p>So, my life's passion had always been rather, extraordinary pets. 
-            At the moment I have two frogs, two gecko's, nine tarantulas, a bunch of bugs, a snake and a cat. </p>
-          <p>From a young age I've always done art. Usually drawing cartoons and such. 
-            In the last few years, I've been focusing on digital art and character design. </p>
-          <p>Whenever I'm having a rough time getting up in the mornings, I think to myself 'build a better future for your reptiles' and then life gets a bit easier! </p>
+          <p2>So, my life's passion has always been rather,,, extraordinary pets. 
+            At the moment I have two frogs, two gecko's, nine tarantulas, a bunch of bugs, a snake and a cat. </p2>
+          <p2>From a young age I've always done art. Usually drawing cartoons and such.
+            In the last few years, I've been focusing on digital art and character design.
+            My art style has been developed trough the media I've consumed in my childhood, thus i like to draw 
+            stuff that can be a bit creepy at times.</p2>
+          <p2>Whenever I'm having a rough time getting up in the mornings, 
+            I think to myself 'build a better future for your reptiles' and then life gets a bit easier! </p2>
         </strong>
-      </aside>
-          <img src="https://i.pinimg.com/originals/2c/20/c4/2c20c4b0279e59ce2092a6e488850da5.jpg">
-    </section>
-  
-    
-<section id="Experience">
-  <h2>Experience</h2>
-    <article><p>So my working experience at office jobs is from my internship. 
-      At my last study I did a year of internship at three companies. 
-      My favorite one was at OkHuizen although being able to work at YuconVR was very impressive. 
-      Why I liked OkHuizen more was because I learned more. 
-      My products actually got printed in mass amounts and I took pride in that, even if it might seem small. </p></article>
+        </div>
   </section>
+  <img src="https://i.pinimg.com/originals/2c/20/c4/2c20c4b0279e59ce2092a6e488850da5.jpg" loading="lazy">
   
-  <!--
-  //lo = list en 
-  //li = list with number 
-  //ul = unordered list-->
-</main>
   
+<!--Here come the main 3 portfolio images, in CSS there's code for both the parent and children that are in this div-->
+
+  <!--The 'parent'-->
+  <div class="imagegallery">
+
+    <!--The 'child'-->
+    <figure>
+        <img src="https://media.discordapp.net/attachments/646973125275156481/1038881422825492500/4.png?width=580&height=580" loading="lazy">
+        <figcaption>Photo 4: Character design</figcaption>
+      </figure>
+    <figure>
+        <img src="https://media.discordapp.net/attachments/646973125275156481/1038881423261708308/6.png?width=580&height=580" loading="lazy">
+        <figcaption>Photo 5: Creepypasta</figcaption>
+      </figure>
+    <figure>
+        <img src="https://media.discordapp.net/attachments/646973125275156481/1038881423651782726/5.png?width=580&height=580" loading="lazy">
+        <figcaption>Photo 6: Art Trade</figcaption>
+      </figure>
+
+</div>
+
+
+  
+  <section id="Experience">
+      <h2>Experience</h2>
+        <article><strong><p> So, my working experience at office jobs is 
+          from my internship. At my last study I did           
+          a year of internship at three companies.           
+          My favourite one was at OkHuizen, although            
+          being able to work at YuconVR was very            
+          impressive. Why I liked OkHuizen more            
+          was because I had the opportunity to            
+          learned more. My products actually got           
+          printed in mass amounts and I took pride            
+          in that, even if it might seem small.            
+          I liked the way I could communicate with           
+          my coordinator/mentor as he gave me more  
+          responsibility than most would have in  
+          his place. This really allowed me to  
+          grow and learn valuable planning skills and such. </p></article>
+  </section>
+  </body></main>
+
+
   
   <footer>
     <section id="footer">
